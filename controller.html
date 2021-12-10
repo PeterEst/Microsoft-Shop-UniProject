@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+    <!-- FavIcon -->
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Xbox controller features dual vibration motors, two analog triggers, two analog sticks (both are also digitally clickable buttons), a digital directional pad, a Back button, a Start button, two accessory slots and six 8-bit analog action buttons (A/Green, B/Red, X/Blue, Y/Yellow, and Black and White buttons).">
+    <meta name="keywords" content="Gaming,Controllers,Xbox,Playstation,New,Cheap,Games">
+    <meta name="author" content="Peter Estephan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Controllers</title>
+</head>
+<body>
+    <div class="mycontainer">
+        <div class="mynavbar">
+            <!-- main logo that returns to menu when clicked -->
+            <a href="index.html"><img src="images/logo.png" alt="logo" class="logo"></a>
+            <!-- navbar  -->
+            <nav>
+                <ul id="menuList">
+                    <li><a href="index.html">HoloLens</a></li>
+                    <li><a href="controller.html" class="active">Controller</a></li>
+                    <li><a href="Info.html">Info</a></li>
+                </ul>
+            </nav>
+            <!-- menu logo toggler made using js -->
+            <img src="images/menu.png" alt="menu-icon" class="menu-icon" onclick="togglemenu()">
+        </div>
+
+        <!-- main site under navbar -->
+        <div class="main">
+            <div class="col-1">
+                <h2>Xbox One S<br>Microsoft</h2>
+                <h3>Wireless Controller for Xbox</h3>
+                <p>(Compatible/Generic)</p>
+                <h4>$32.50</h4>
+                <button type="button">Buy Now<img src="images/arrow.png" alt="arrow"></button>
+            </div>
+            <div class="col-2">
+                <img src="images/controller.png" alt="controller" class="controller">
+                <div class="color-box"></div>
+                <div class="add-btn">
+                    <img src="images/add.png" alt="add">
+                    <p><small>Add to Cart</small></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Contacts -->
+        <div class="contact-links">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+    </div>
+
+    <!-- JavaScript link to toggle menu -->
+    <script src="js/script.js"></script>
+</body>
+</html>

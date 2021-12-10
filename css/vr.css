@@ -1,0 +1,54 @@
+/* Navigation bar styling */
+.mynavbar{
+    background-color: #3E065F;
+}
+
+nav ul li a:hover{
+    color: #8E05C2;
+}
+
+/* Main Styling */
+/* Right Side */
+.color-box{
+    background: linear-gradient(#8E05C2, #3E065F);
+}
+
+.add-btn{
+    margin-left: 20px;
+}
+
+/* Left Side */
+.col-1::after{
+    background: linear-gradient(#3E065F, #8E05C2);
+}
+
+button{
+    background: linear-gradient(to right, #700B97, #000000);
+}
+
+.col-1 h2 {
+    color: #3E065F;
+}
+
+.col-1 h4 {
+    color: #3E065F;
+}
+
+
+/* Footer Styling */
+.contact-links{
+    margin-top: 80px;
+}
+
+.contact-links i:hover{
+    color: #8E05C2;
+    border-bottom: 2px solid #8E05C2;
+}
+
+/* Menu Small Screen Styling */
+@media only screen and (max-width:700px){
+    /* Menu Color */
+    nav ul {
+        background: linear-gradient(#3E065F, #8E05C2);
+    }
+}
